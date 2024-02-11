@@ -179,7 +179,7 @@
                 The final step is to iterate through the bounding box and check if the pixel is inside the triangle. 
                 This is done by checking if the pixel is inside the triangle by using three line tests. If the pixel is inside the triangle, we color it with the color of the triangle using the sample function.<br><br>
                 
-                <strong>Extra Credit: FastRender based on scanlines for all sample rates</strong>
+                <strong>Extra Credit: FastRender based on scanlines for all sample rates:</strong><br>
                 In my experimental fastRaster implementation, I choose to investigate a faster rasterization method.
                 Rather than checking every pixel in the bounding box, I used used a scan line approach instead.
                 For every row of pixels, starting at the minimum y value and ending at the maximum y value, I found the x_min and x_max points of each row.
